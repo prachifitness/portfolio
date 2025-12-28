@@ -44,7 +44,7 @@ header .logo a span{
 }
 header .nav{
 	position: fixed;
-	background-color: #ccff33;
+	background-color: #666633;
 	width: 280px;
 	top:0;
 	right:0;
@@ -581,7 +581,7 @@ header .ham-burger.active span:nth-child(2){
 	background-color: #444444;
 }
 .schedule .content .timing .table tr:nth-child(1) td.day{
-	background-color: #ccff33;
+	background-color: #666633;
 }
 .schedule .content .timing .table tr td.day{
 	color:#ffffff;
@@ -938,6 +938,7 @@ flex: 0 0 100%;
       font-size: 30px;
   }
 }
+
 
 
 
