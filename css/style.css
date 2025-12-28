@@ -708,6 +708,61 @@ header .ham-burger.active span:nth-child(2){
 	width: 100%;
 }
 
+/* Review Section*/
+
+.section-review {
+  padding: clamp(4rem, 10vw, 12rem) 0rem;
+}
+
+.review-box {
+  display: grid;
+  grid-template-columns: repeat(
+    var(--two-col-layout),
+    minmax(min-content, 1fr)
+  );
+  column-gap: var(--grid-column-gap);
+  row-gap: var(--grid-row-gap);
+}
+
+.review-card {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.review-card__image {
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.review-card__content {
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.review-card__content .text {
+  font-style: italic;
+}
+.review-card__content .name {
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding-top: 1.5rem;
+}
+.review-card__content::before {
+  content: '\201F';
+  display: block;
+  font-size: 12rem;
+  color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: -7rem;
+  left: -1rem;
+}
 
 
 /*Contact Section*/
@@ -938,6 +993,7 @@ flex: 0 0 100%;
       font-size: 30px;
   }
 }
+
 
 
 
