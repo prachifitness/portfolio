@@ -712,6 +712,7 @@ header .ham-burger.active span:nth-child(2){
 
 .section-review {
   padding: clamp(4rem, 10vw, 12rem) 0rem;
+  background-color: #222222;
 }
 
 .review-box {
@@ -993,6 +994,7 @@ flex: 0 0 100%;
       font-size: 30px;
   }
 }
+
 
 
 
